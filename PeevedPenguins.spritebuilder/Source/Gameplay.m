@@ -158,8 +158,8 @@
     }
 }
 
--(void)sealRemoved:(CCNode *)nodeA
+-(void)sealRemoved:(CCNode *)seal
 {
-    
+    [seal removeFromParent];
 }
 @end
