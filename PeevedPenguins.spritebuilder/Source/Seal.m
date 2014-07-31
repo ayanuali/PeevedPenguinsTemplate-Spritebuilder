@@ -20,8 +20,9 @@
 //    
 //    return self;
 //}
--(void)didLoadFromCCB
-{
+
+- (void)didLoadFromCCB {
     self.physicsBody.collisionType = @"seal";
 }
+
 @end
