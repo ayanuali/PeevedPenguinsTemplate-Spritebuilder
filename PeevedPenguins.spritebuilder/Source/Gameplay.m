@@ -8,7 +8,8 @@
 
 #import "Gameplay.h"
 
-@implementation Gameplay{
+@implementation Gameplay
+{
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
@@ -146,6 +147,5 @@
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
 {
     CCLOG(@"Something collided with a seal!");
-    NSLog(@"test");
 }
 @end
